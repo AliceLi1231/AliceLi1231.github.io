@@ -155,10 +155,10 @@
 <script>
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '{250014541333729}',
+      appId      : '250014541333729',
       cookie     : true,
       xfbml      : true,
-      version    : '{v17.0}'
+      version    : 'v17.0'
     });
       
     FB.AppEvents.logPageView();   
@@ -173,12 +173,10 @@
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
-  
-<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-</fb:login-button>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v17.0&appId=250014541333729&autoLogAppEvents=1" nonce="aWsCuLxT"></script>
 
-<div id="status">
-</div>
+<div class="fb-login-button" data-width="150px" data-size="" data-button-type="" data-layout="" data-auto-logout-link="true" data-use-continue-as="false"></div>
   
   
   <div class="calendar">
